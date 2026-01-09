@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PinThoughts</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>PinThoughts</h1>
-  <p>Your thoughts, pinned.</p>
+
+  <div class="container">
+    <h1>PinThoughts</h1>
+    <p class="tagline">Capture your thoughts. Securely pinned.</p>
+
+    <div class="card">
+      <p>
+        This is the <strong>office-safe</strong> version of PinThoughts.
+      </p>
+      <p>
+        Some corporate networks block custom domains.
+        This mirror ensures uninterrupted access.
+      </p>
+
+      <button onclick="openMainSite()">
+        Open Full Application
+      </button>
+    </div>
+
+    <footer>
+      <p>© 2026 PinThoughts</p>
+    </footer>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
